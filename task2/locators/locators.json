@@ -1,0 +1,18 @@
+{
+    "cookiesBannerLocator": "consent-widget-view",
+    "cookiesBannerAcceptButtonLocator": "#widget-button-accept",
+    "getNordVpnButtonLocator": "a[role='button'][data-ga-slug='Get NordVPN'][href='/offer/pricing/']",
+    "getPlusPlanLocator": "a[role='button'][data-ga-slug='Get Plus'][data-testid='MultipleHighlightedCard-PlanCard-cta']",
+    "logInButtonLocator": "UserProfile-login-button",
+    "planDropdownLocator": "[data-hk='s00-0-0-0'] select[data-testid='PricingDropdown']",
+    "signUpLinkLocator": "identifier-signup-link",
+    "emailInputLocator": "identifier-input",
+    "submitButtonLocator": "identifier-submit",
+    "forgotPasswordLinkLocator": "forgot-password",
+    "signUpGoogleButtonLocator": "signin-with-google-button",
+    "signUpAppleButtonLocator": "signin-with-apple-button",
+    "signUpCodeButtonLocator": "signin-with-code-button",
+    "supportLinkLocator": "footer-support-email",
+    "termsAndConditionsButtonLocator": "footer-terms-and-conditions",
+    "languageDropdownLocator": "#language-select"
+}

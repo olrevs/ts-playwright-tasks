@@ -48,6 +48,7 @@ test.describe('Critical feature - verification', () => {
     await dropdown.selectOption({ value: '1y' });
 
     await page.locator(locators.getPlusPlanLocator).nth(0).click();
+    await expect(page).toHaveTitle(checkoutPageTitle);
     expect(page.url()).toContain(checkoutPageUrl);
     await expect(page.getByTestId(locators.logInButtonLocator)).toBeVisible();
 
@@ -57,6 +58,7 @@ test.describe('Critical feature - verification', () => {
     await dropdown.selectOption({ value: '1m' });
 
     await page.locator(locators.getPlusPlanLocator).nth(0).click();
+    await expect(page).toHaveTitle(checkoutPageTitle);
     expect(page.url()).toContain(checkoutPageUrl);
     await expect(page.getByTestId(locators.logInButtonLocator)).toBeVisible();
   });
